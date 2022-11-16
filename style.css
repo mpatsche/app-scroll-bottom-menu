@@ -1,4 +1,4 @@
-body {
+body, h1 {
     margin: 0;
 }
 /* Styling the scroll and fixed bottom menu */
@@ -10,6 +10,13 @@ body {
     height: 100vh;
     background-image: url(images/bg_image.jpeg);
     background-size: cover;
+}
+.topBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightpink;
+    padding: 1rem;
 }
 .scroll {
     overflow-y: scroll;
